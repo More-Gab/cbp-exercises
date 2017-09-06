@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color:rgba(0,0,0,.5);
+    color: #FF2A00;
+    font-family: Impact;
+    font-size: 72px;
+    font-weight: normal;
+}
+h2{
+    font-family: Impact;
+    font-variant: small-caps;
+}
+h3{
+    font-family: Impact;
+}
+a{
+    font-weight: bold;
+    }
+#biography{
+    background-color: #87ACEC;
+}
+
+p.red{
+    background-color: red;
+}
+
+p.green{
+    background-color: green;
+}
+
+p.blue{
+    background-color: blue;
+}
+
+p.red a, p.green a {
+    color:white;
+}
+li.seen{
+    color:rgba(192, 192, 192, 0.74);
+}
+
+li.unseen{
+    color:rgba(255, 0, 0, 0.86);
+}
+
+p.blue a{
+    color: yellow;
+}
+
+span.seen {
+    color: pink;
+}
+
+span.unseen{
+    color: orange;
+}
+
+div#biography a{
+    text-decoration: none;
+}
+
+div#biography a:hover {
+    text-decoration:underline;
+}
